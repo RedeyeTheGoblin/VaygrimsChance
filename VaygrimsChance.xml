@@ -1,0 +1,869 @@
+<version>		
+		<pack>
+			<version>1.02</version>
+			<minecraft>1.7.10</minecraft>
+			<memory>2048</memory>
+			<permgen>256</permgen>
+		    <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
+            <extraarguments>--tweakClass=cpw.mods.fml.common.launcher.FMLTweaker</extraarguments>
+        </pack>
+    <libraries>
+        <library 
+		    url="packs/VaygrimsChance/files/1.7.10/Library/launchwrapper-1.9.jar" 
+			file="launchwrapper-1.9.jar" 
+			md5="a3da457dd2a94c41d4cb18f833825552" 
+			download="server"
+			server="net/minecraft/launchwrapper/1.9/launchwrapper-1.9.jar"
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/asm-all-4.1.jar" 
+			file="asm-all-4.1.jar" 
+			md5="d21c2a06a4e6b175aa01e328f38a1182" 
+			download="server"
+			server="org/ow2/asm/asm-all/4.1/asm-all-4.1.jar"
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/akka-actor_2.11-2.3.3.jar" 
+			file="akka-actor_2.11-2.3.3.jar" 
+			md5="2a3d8946f684f928c48a2dd298c5cd29" 
+			download="server"
+			server="com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/config-1.2.1.jar" 
+			file="config-1.2.1.jar" 
+			md5="a88c2f8be90a5c41b87155cdff21e0db" 
+			download="server"
+			server="com/typesafe/config/1.2.1/config-1.2.1.jar"
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/scala-actors-migration_2.11-1.1.0.jar" 
+			file="scala-actors-migration_2.11-1.1.0.jar" 
+			md5="f5e79398daa1806f8b17311a3c782723" 
+			download="server"
+			server="org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/scala-compiler-2.11.1.jar" 
+			file="scala-compiler-2.11.1.jar" 
+			md5="06030143bf86ca896fb6ccfd679b5760" 
+			download="server"
+			server="org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/scala-continuations-library_2.11-1.0.2.jar" 
+			file="scala-continuations-library_2.11-1.0.2.jar" 
+			md5="c7d01e5a88182df7f22b7418abb51085" 
+			download="server"
+			server="org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/scala-continuations-plugin_2.11.1-1.0.2.jar" 
+			file="scala-continuations-plugin_2.11.1-1.0.2.jar" 
+			md5="daecef8fab296b764a8fb41fc07f2428" 
+			download="server"
+			server="org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/scala-library-2.11.1.jar" 
+			file="scala-library-2.11.1.jar" 
+			md5="1d88f665219e6006c5dd82d71c525c0f" 
+			download="server"
+			server="org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/scala-parser-combinators_2.11-1.0.1.jar" 
+			file="scala-parser-combinators_2.11-1.0.1.jar" 
+			md5="4e694499c965af4a02599c99d4f0b196" 
+			download="server"
+			server="org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/scala-reflect-2.11.1.jar" 
+			file="scala-reflect-2.11.1.jar" 
+			md5="7878fac044e4e4b576bb35a77ccc34fc" 
+			download="server"
+			server="org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/scala-swing_2.11-1.0.1.jar" 
+			file="scala-swing_2.11-1.0.1.jar" 
+			md5="1009d69e4948045383f2a7a334348af5" 
+			download="server"
+			server="org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/scala-xml_2.11-1.0.2.jar" 
+			file="scala-xml_2.11-1.0.2.jar" 
+			md5="c2d7e66495afe14545c31b21e99879ef" 
+			download="server"
+			server="org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/jopt-simple-4.5.jar" 
+			file="jopt-simple-4.5.jar" 
+			md5="1372bd4823bb1ef61e7db6724f601150" 
+			download="server"
+			server="net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/lzma-0.0.1.jar" 
+			file="lzma-0.0.1.jar" 
+			md5="a3e3c3186e41c4a1a3027ba2bb23cdc6" 
+			download="server"
+			server="lzma/lzma/0.0.1/lzma-0.0.1.jar"  
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/realms-1.3.1.jar" 
+			file="realms-1.3.1.jar" 
+			md5="601b8e4c233e48e514518c15f49f273d" 
+			download="server"
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/guava-16.0.jar" 
+			file="guava-16.0.jar" 
+			md5="5286e2b8c38ff1ca83fb51e30af71f5a" 
+			download="server"
+			/>
+        <library 
+			url="packs/VaygrimsChance/files/1.7.10/Library/commons-lang3-3.2.1.jar" 
+			file="commons-lang3-3.2.1.jar" 
+			md5="7fc4221e7e3a05d8052d3fbb34fb0a5a" 
+			download="server"
+			/>
+    </libraries>
+	
+	<mods>
+		
+		<!-- Forge -->
+		<mod name="Minecraft Forge" version="10.13.0.1208" 
+			url="packs/VaygrimsChance/files/1.7.10/Library/forge-1.7.10-10.13.0.1208-universal.jar" 
+			file="forge-1.7.10-10.13.0.1208-universal.jar" 
+			md5="b95fcfdd85bad079056ad147c8ecba12" 
+			download="server" type="forge" 
+			website="http://www.minecraftforge.net/forum/" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z5MLLA62HSUM2" 
+			authors="Eloraam,FlowerChild,Hawkye,MALfunction84,Scokeev9,SpaceToad,LexManos,cpw" 
+			description="Minecraft Forge is a modding API used by alot of mods." />
+		
+		<!-- Dependancies -->
+		<mod name="bspkrsCore" version="6.14" 
+			url="packs/VaygrimsChance/files/1.7.10/Depends/[1.7.10]bspkrsCore-universal-6.14.jar" 
+			file="[1.7.10]bspkrsCore-universal-6.14.jar" 
+			md5="660754966cfb94853dab0c8035d4f301" 
+			download="server" type="dependency" 
+			website="http://www.minecraftforum.net/topic/1114612-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=briefcase%2espeakers%40gmail%2ecom&amp;lc=US&amp;item_name=bspkrs%20mod%20development&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest" 
+			authors="DaftPVF,bspkrs" 
+			description="Shared classes used in the mods maintained by bspkrs." />
+
+		<mod name="Baubles" version="1.0.1.7" 
+			url="packs/VaygrimsChance/files/1.7.10/Depends/Baubles-1.7.10-1.0.1.7.jar" 
+			file="Baubles-1.7.10-1.0.1.7.jar" 
+			md5="33672a05f6e3005a78b8db3700c26f84" 
+			download="server" type="dependency" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294623" 
+			authors="azanor, vazkii"
+			description="API adding RPG style trinkets - rings, belts, amulets etc" />
+
+		<mod name="CodeChickenLib" version="1.1.1.104" 
+			url="packs/VaygrimsChance/files/1.7.10/Depends/CodeChickenLib-1.7.10-1.1.1.104-universal.jar" 
+			file="CodeChickenLib-1.7.10-1.1.1.104-universal.jar" 
+			md5="53ad74d64ba082bc7316c63d9d80286a" 
+			download="server" type="dependency" 
+			website="http://www.minecraftforum.net/topic/909223-" donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php" 
+			authors="ChickenBones" 
+			description="Needed for ChickenBones mods" />
+
+		<mod name="Forge Multipart" version="1.1.0.307" 
+			url="packs/VaygrimsChance/files/1.7.10/Depends/ForgeMultipart-1.7.10-1.1.0.307-universal.jar" 
+			file="ForgeMultipart-1.7.10-1.1.0.307-universal.jar" 
+			md5="7ae28210d143dd071b4f048b4f3076a5" 
+			download="server" type="dependency" 
+			website="http://files.minecraftforge.net/ForgeMultipart/" 
+			description="API for multipart blocks - covers, corner, nooks, pillars etc - as well as allowing multiple objects in the same block space" />
+			
+		<!-- Client side mods -->
+		<mod name="ArmorStatusHUD" version="1.27" 
+			url="packs/VaygrimsChance/files/1.7.10/Client/[1.7.10]ArmorStatusHUD-client-1.27.jar" 
+			file="[1.7.10]ArmorStatusHUD-client-1.27.jar" 
+			md5="4342b6a99b1c9f94a4f9e7b6dac1b4f8" 
+			download="server" type="mods" server="no"
+			website="http://www.minecraftforum.net/topic/1114612-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=briefcase%2espeakers%40gmail%2ecom&amp;lc=US&amp;item_name=bspkrs%20mod%20development&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest" 
+			authors="bspkrs" 
+			description="Provides a HUD with your equipped armor/item stats." />
+
+		<mod name="StatusEffectHUD" version="1.26" 
+			url="packs/VaygrimsChance/files/1.7.10/Client/[1.7.10]StatusEffectHUD-client-1.26.jar" 
+			file="[1.7.10]StatusEffectHUD-client-1.26.jar" 
+			md5="115031dd389124a7defd5062aaa9c516" 
+			download="server" type="mods" server="no"
+			website="http://www.minecraftforum.net/topic/1114612-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=briefcase%2espeakers%40gmail%2ecom&amp;lc=US&amp;item_name=bspkrs%20mod%20development&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest" 
+			authors="bspkrs" 
+			description="Shows active player effects (potions, etc) without opening your inventory!" />
+
+		<mod name="FogNerf" version="0.3" 
+			url="packs/VaygrimsChance/files/1.7.10/Client/fognerf-1.7.10-0.3.jar" 
+			file="fognerf-1.7.10-0.3.jar" 
+			md5="6700da1dd54da14385588456c998aa54" 
+			download="server" type="mods" server="no"
+			website="http://minecraft.curseforge.com/mc-mods/221849-fognerf" 
+			authors="PortableJim"
+			description="Removes void fog, water fog and lava fog for a clearer, brighter Minecraft!" />
+		
+		<mod name="WAILA Harversability Addon" version="1.1.0" 
+			url="packs/VaygrimsChance/files/1.7.10/Client/WailaHarvestability-mc1.7.x-1.1.0.jar" 
+			file="WailaHarvestability-mc1.7.x-1.1.0.jar" 
+			md5="46e5e97d5763402239abb8eb1b62e7f2" 
+			download="server" type="mods" server="no"
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1295067-waila-harvestability-how-can-i-harvest-what-im" 
+			authors="Squeek502"
+			description="Can I harvest what I'm looking at?" />
+			
+		<mod name="Whats This Pack?" version="1.0.29.1" 
+			url="packs/VaygrimsChance/files/1.7.10/Client/WTP-1.7.10-1.0.29.1.jar" 
+			file="WTP-1.7.10-1.0.29.1.jar" 
+			md5="a2ee4c608aa79fd49c488941ed06cece" 
+			download="server" type="mods" server="no"
+			website="http://minecraft.curseforge.com/mc-mods/221658-wtp-whats-this-pack" 
+			authors="Robosphinx"
+			description="Customization of the information displayed on the Minecraft main menu screen." />
+			
+		<!-- Universal Mods (Alphabetical) -->
+		<mod name="Admin Commands Toolbox" version="0.0.2a" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/AdminCommandsToolbox-0.0.2a_1.7.10.jar" 
+			file="AdminCommandsToolbox-0.0.2a_1.7.10.jar" 
+			md5="69d3197f2575c411d1b101877806bef1" 
+			download="server" type="mods" 
+			website="http://minecraft.curseforge.com/mc-mods/221584-admin-commands-toolbox" 
+			authors="ProfMobius"
+			description="Adds a few useful commands for admins - setting world spawn and pre-generating chunks to reduce lag" />
+
+		<mod name="AppleCore" version="1.0.0" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/AppleCore-mc1.7.10-1.0.0.jar" 
+			file="AppleCore-mc1.7.10-1.0.0.jar" 
+			md5="049df6d66b5494565642a276fce1d82b" 
+			download="server" type="mods" 
+			website="http://minecraft.curseforge.com/mc-mods/224472-applecore" 
+			authors="Squeek502"
+			description="An API for modifying the food and hunger mechanics of Minecraft." />
+
+		<mod name="Aroma1997Core" version="1.0.2.9" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Aroma1997Core-1.7.10-1.0.2.9.jar" 
+			file="Aroma1997Core-1.7.10-1.0.2.9.jar" 
+			md5="af55a99b1f83813e4de66b95e3d07fc6" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1679684-" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=JUN8L67CPHTRC&amp;item_name=Aroma1997s+Mods&amp;cmd=_s-xclick" 
+			authors="Aroma1997,Schillaa" 
+			description="This is basically a library used by most my other mods." />
+
+		<mod name="AsieLib" version="0.3.1"
+			url="packs/VaygrimsChance/files/1.7.10/Core/AsieLib-1.7.10-0.3.1.jar" 
+			file="AsieLib-1.7.10-0.3.1.jar" 
+			md5="fe3c63b5da3cfb5f98674d2f9d85cb20" 
+			download="server" type="mods" 
+			website="http://mc.shinonome.ch/doku.php?id=wiki:asielib"
+			authors="asie"
+			description="Library for asie's mods" />
+
+		<mod name="BetterChests" version="1.1.1.4" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/BetterChests-1.7.10-1.1.1.4.jar" 
+			file="BetterChests-1.7.10-1.1.1.4.jar" 
+			md5="7e9bf1606db025df228af18946ee2ebd" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1679684-" 
+			authors="Aroma1997,Noisyboy,TechMac" 
+			description="This mod was created during ModJam, August 2013 by Aroma1997. This mod adds a new type of chests, that is mostly adjustable. You can put some upgrades into the chest and personalize the chest to how you want it to be." />
+
+		<mod name="BiblioCraft" version="1.8.1" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/BiblioCraft[v1.8.1][MC1.7.10].jar" 
+			file="BiblioCraft[v1.8.1][MC1.7.10].jar" 
+			md5="623121e551330c4c3769bcb0fe4e1bc7" 
+			download="server" type="mods" 
+			website="http://www.bibliocraftmod.com" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NLK9SWM3U77XS" 
+			authors="Joseph &apos;Nuchaz&apos; Sinclair" 
+			description="BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware! New in 1.3: Fancy lamps and golden lanterns. Also Tables and enchanted plates!" />
+
+		<mod name="Blood Magic" version="1.2.0" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Blood Magic-v1.2.0(1.7.10).jar" 
+			file="Blood Magic-v1.2.0(1.7.10).jar" md5="fb7035ec34c340081ebee4059e6d46e5" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290532-1-7-10-2-1-6-4-blood-magic-v1-2-0a-updated-oct-20" 
+			authors="WayofTime"
+			description="Exploit the power of blood to reshape reality!" />
+
+		<mod name="Buildcraft" version="6.0.18" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/buildcraft-6.0.18.jar" 
+			file="buildcraft-6.0.18.jar" md5="8fbe8499b812664eebc35cbd110763f3" 
+			download="server" type="mods" 
+			website="http://www.mod-buildcraft.com/" 
+			authors="Author: CovertJaguar, SirSengir, Krapht, SpaceToad"
+			description="Adds a variety of pipes and machines to make minecraft less... manual." />
+
+		<mod name="Carpenter&apos;s Blocks" version="3.3.0" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Carpenters Blocks v3.3.0 - MC 1.7.10.jar" 
+			file="Carpenters Blocks v3.3.0 - MC 1.7.10.jar" 
+			md5="6d5caa653ceab9100222608b5cc86bdd" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1790919-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=YGAB8YNHMQPLQ&amp;lc=US&amp;item_name=Minecraft%20Modding&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted" 
+			authors="Mineshopper" 
+			description="Adds slopes and a variety of vanilla-inspired blocks that support covers, side covers, overlays, dyes and chiseled patterns." />
+
+		<mod name="Chisel" version="1.5.7" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Chisel-1.7.10-1.5.7.jar" 
+			file="Chisel-1.7.10-1.5.7.jar" 
+			md5="8fd9c91d68256d1575d05fa31736e340" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1749374-" 
+			authors="AUTOMATIC_MAIDEN, asie, Pokefenn" 
+			description="Adds a chisel item that lets you carve blocks like cobblestone or sandstone. Adds two new blocks to world generation: marble and limestone, which can be be carved and crafted into many various building materials." />
+
+		<mod name="CodeChickenCore" version="1.0.3.23" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/CodeChickenCore-1.7.10-1.0.3.23-universal.jar" 
+			file="CodeChickenCore-1.7.10-1.0.3.23-universal.jar" 
+			md5="c3d5bc5eb9dea5b3d6c792717bccd6fa" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/909223-" donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php" 
+			authors="ChickenBones" 
+			description="Core library for all ChickenBones mods" />
+
+		<mod name="CoFH Core" version="[1.7.10]3.0.0B6-32" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/CoFHCore-[1.7.10]3.0.0B6-32.jar" 
+			file="CoFHCore-[1.7.10]3.0.0B6-32.jar" 
+			md5="b1ee8684fc90acef9e81f63f6a9db189" 
+			download="server" type="mods" 
+			website="http://teamcofh.com/" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3M6YK5LMC4GT6" 
+			authors="KingLemmingCoFH,Cynycal,Zeldo" 
+			description="CoFH Core Module" />
+
+		<mod name="Crafting Pillars" version="1.5.8" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/craftingpillars-1.7.10-1.5.8.jar" 
+			file="craftingpillars-1.7.10-1.5.8.jar" 
+			md5="590b91f087be439050a1a556c71c8363" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292336-crafting-pillars-mod-the-fancy-way-of-crafting-and" 
+			authors="Dawars"
+			description="Adds a shiny new crafting table - the crafting pillar! Complete with shiny floaty item representations and extra sprinkles of awesome! Also adds a couple of other neat pillars." />
+
+		<mod name="Decocraft" version="1.11" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Decocraft-v1.11_1.7.10.jar" 
+			file="Decocraft-v1.11_1.7.10.jar" 
+			md5="5ef620a47872fbec43f988da1c602a81" 
+			download="server" type="mods" 
+			website="http://razzleberri.es/wiki/Decocraft" 
+			authors="RazzleBerryFox"
+			description="Lots and lots of props for all of your decorating needs! Seriously, theres a LOT!" />
+
+		<mod name="Dimensional Anchors" version="59.0.2" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/dimensional-anchor-59.0.2.jar" 
+			file="dimensional-anchor-59.0.2.jar" 
+			md5="e422a4e650091adc0327603ffb89e3d3" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1001131-" 
+			authors="immibis" 
+			description="Lightweight chunkloaders." />
+
+		<mod name="DimStorage" version="1.3" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/DimStorage-1.7.2-1.3.jar" 
+			file="DimStorage-1.7.2-1.3.jar" 
+			md5="a8c5ff336c485f8db89510317810cc0c" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2104639-dimstorage" 
+			authors="Gaarnik"
+			description="Adds technological ender chests." />
+
+		<mod name="Easy Crafting" version="2.0.1.16" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/EasyCrafting-1.7.10-2.0.1.16.jar" 
+			file="EasyCrafting-1.7.10-2.0.1.16.jar" 
+			md5="408199e0347b10f810239a8dd320ad7f" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1558714-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=unixrano%40gmail%2ecom&amp;lc=US&amp;item_name=IC2CA%20Development&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" 
+			authors="Lepko" 
+			description="Easily craft items that you have the materials for with just a click of a button!" />
+
+		<mod name="Ender IO" version="2.1.2.237" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/EnderIO-1.7.10-2.1.2.237.jar" 
+			file="EnderIO-1.7.10-2.1.2.237.jar" 
+			md5="e4a2573bebd90766aa91f5f8fc5e2407" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1937619-" 
+			authors="crazypants" 
+			description="Compact conduits, painted things and access to your stuff through an eye of ender." />
+
+		<mod name="Ender Storage" version="1.4.5.X.3-MR208" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/EnderStorage-1.7.10-1.4.5.X.3-MR208.jar" 
+			file="EnderStorage-1.7.10-1.4.5.X.3-MR208.jar" 
+			md5="f3033d4825f21a7c39fd5d5a9d613f7a" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/909223-" donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php" 
+			authors="ChickenBones" 
+			description="EnderStorage is a mod that offers a means to store your items in The END, causing them to be everywhere and nowhere at the same time.  All EnderStorage makes use of the magic of colors to link storage with its little piece of The END.  Any EnderStorage with the same color code share inventory (even across dimensions)." />
+
+		<mod name="Ender Utilities" version="0.3.3" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/enderutilities-1.7.10-0.3.3.jar" 
+			file="enderutilities-1.7.10-0.3.3.jar" 
+			md5="fc1b4963c29a5d259308aa7f9a153ebc" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2091978-ender-utilities" 
+			authors="Masa Fi"
+			description="New ender-related utilities and gadgets!" />
+		
+		<mod name="The Erebus" version="0.2pre11c" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/TheErebus-0.2pre11c.jar" 
+			file="TheErebus-0.2pre11c.jar" 
+			md5="0df7ccc8d24342cdb71a8f9ef6eaf5c4"  
+			download="server" type="mods" fileprefix="00_"
+			website="http://minecraft.curseforge.com/mc-mods/220698-the-erebus" 
+			authors="Dylan4ever, Ganymedes01, Vadas365, TheCricket26"
+			description="The Erebus focuses on adding a whole new dimension to Minecraft, with many new creatures to slay, things to create and lands to explore. " />
+
+		<mod name="ExtraUtilities" version="1.1.0k" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/extrautilities-1.1.0k.jar" 
+			file="extrautilities-1.1.0k.jar" 
+			md5="84dd5b3f13d3e6ca344624ea5abd773c" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k" 
+			authors="RWTema"
+			description="Originally a bunch of silly, random ideas... Now, awesomeness distilled into mod form!" />
+
+		<mod name="Finndus Fillies" version="2.1.0.12" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/FinndusFillies-1.7.10-universal-2.1.0.12.jar" 
+			file="FinndusFillies-1.7.10-universal-2.1.0.12.jar" 
+			md5="6bb5083831f51723209329a291982806" 
+			download="server" type="mods" 
+			website="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/" 
+			authors="Myrathi" 
+			description="Provides horsemeat, cleverly disguised as beef. Also, glue (slime balls)." />
+
+		<mod name="Flats Signs" version="2.0.0.17" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/FlatSigns-1.7.10-universal-2.0.0.17.jar" 
+			file="FlatSigns-1.7.10-universal-2.0.0.17.jar" 
+			md5="8da5fdff6b17b48e82d24aeb555b7f45" 
+			download="server" type="mods" 
+			website="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/" 
+			authors="Myrathi"
+			description="Makes signs... flat!" />
+
+		<mod name="Flaxbeard's Steam Power" version="0.26.4" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/FlaxbeardsSteamPower-1.7.10-0.26.4.zip" 
+			file="FlaxbeardsSteamPower-1.7.10-0.26.4.zip" 
+			md5="089e363e7c98e386ee531a76a8245cb7" 
+			download="server" type="mods" fileprefix="ZZ_"
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2091995-professor-flaxbeards-wondrous-steam-power-mod-beta" 
+			authors="theFlaxbeard"
+			description="Ever wished you could soar above the clouds in a steam-powered exosuit? Well, now you can! Also adds a huge amount of steam-powered machines too." />
+
+		<mod name="Immibis Core" version="59.0.1" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/immibis-core-59.0.1.jar" 
+			file="immibis-core-59.0.1.jar" 
+			md5="bb3e1b066877a7dd2ef24a1f62610d0a" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1001131-" 
+			authors="immibis" 
+			description="This is like CodeChicken Core, Buildcraft Core, RedPower Core, and so on - it provides requirements for other mods." />
+
+		<mod name="Inventory Tweaks" version="1.59-dev-152" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/InventoryTweaks-1.59-dev-152.jar" 
+			file="InventoryTweaks-1.59-dev-152.jar" 
+			md5="83f7ddcd5f5fd8d640aa15dc62acc6bf" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1720872-" 
+			authors="Jimeo Wan,Kobata" 
+			description="Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items." />
+
+		<mod name="Iron Chest" version="6.0.60.741" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ironchest-1.7.10-6.0.60.741-universal.jar" 
+			file="ironchest-1.7.10-6.0.60.741-universal.jar" 
+			md5="f5976d941ad460445a59aa8f2fd696b0" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/981855-" 
+			authors="cpw" 
+			description="New chests with larger sizes, with in-place upgrade items." />
+
+		<mod name="JABBA" version="1.1.4" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Jabba-1.1.4_1.7.10.jar" 
+			file="Jabba-1.1.4_1.7.10.jar" 
+			md5="3fb08cd3741ae159ebf70ecda3b57593" 
+			download="server" type="mods" 
+			website="http://www.mobiusstrip.eu/" 
+			authors="ProfMobius"
+			description="Better Barrels for you and me!" />
+
+		<mod name="Liquid Dirt" version="1.3" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/liquidDirt-1.3.jar" 
+			file="liquidDirt-1.3.jar" 
+			md5="891aa710c117019e5177f2c266ac7de7" 
+			download="server" type="mods" 
+			website="http://minecraft.curseforge.com/mc-mods/221164-liquid-dirt" 
+			authors="Ace5852"
+			description="Dirt, thats also a liquid! Please, dirt responsibly." />
+
+		<mod name="Mekanism" version="1.7.10-7.1.0.92" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Mekanism-1.7.10-7.1.0.92.jar" 
+			file="Mekanism-1.7.10-7.1.0.92.jar" 
+			md5="1a84372957f1379c91374054df181aec" 
+			download="server" type="mods" 
+			website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" 
+			authors="aidancbrady" 
+			description="Energy, Armor, Tools, Weapons, Machines, Magic." />
+
+		<mod name="MekanismGenerators" version="1.7.10-7.1.0.92" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/MekanismGenerators-1.7.10-7.1.0.92.jar" 
+			file="MekanismGenerators-1.7.10-7.1.0.92.jar" 
+			md5="bd1abe0a21087155e6ee137b74e60b32" 
+			download="server" type="mods" 
+			website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" 
+			authors="aidancbrady" 
+			description="Generators module of Mekanism." />
+
+		<mod name="MekanismTools" version="1.7.10-7.1.0.92" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/MekanismTools-1.7.10-7.1.0.92.jar" 
+			file="MekanismTools-1.7.10-7.1.0.92.jar" 
+			md5="7b56726ca8ba4d2a7b75acfaf52c7ec7" 
+			download="server" type="mods" 
+			website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" 
+			authors="aidancbrady" 
+			description="Tools module for Mekanism." />
+
+		<mod name="MineTweaker3" version="3.0.9" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/MineTweaker3-1.7.10-3.0.9.jar" 
+			file="MineTweaker3-1.7.10-3.0.9.jar" 
+			md5="f14f8f6589b23b86e909a61c85d7f1bf" 
+			download="server" type="mods" 
+			website="http://minetweaker3.powerofbytes.com/" 
+			authors="StanHebben"
+			description="Tweak your minecraft with these easy to use scripts! Add recipes, remove recipes and more!" />
+
+		<mod name="Minions" version="1.9.4" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Minions-1.7.10-1.9.4.jar" 
+			file="Minions-1.7.10-1.9.4.jar" 
+			md5="4c18e587a04e8eadc17f03a35cdea2ee" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280951-1-7-10-minecraft-minions-evil-always-finds-a-way"
+			authors="AtomicStyker"
+			description="Now you too can be an EVIL MASTERMIND! Assemble your army of minions and go forth and take over the world!" />
+		
+		<mod name="MobiusCore" version="1.2.3" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/MobiusCore-1.2.3_1.7.10.jar" 
+			file="MobiusCore-1.2.3_1.7.10.jar" 
+			md5="2f6af16859c7f6b752cbbc9f1cabf5af" 
+			download="server" type="mods" 
+			website="http://www.mobiusstrip.eu/" 
+			authors="ProfMobius"
+			description="Library for all of ProfMobius' mods" />
+
+		<mod name="NEI Addons" version="1.12.2.9" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/neiaddons-mc1710-1.12.2.9.jar" 
+			file="neiaddons-mc1710-1.12.2.9.jar" 
+			md5="b239f324391abd05e16c646c77ddbdd7" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1803460-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" 
+			authors="bdew" 
+			description="Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins." />
+
+		<mod name="NEI Plugins (Unofficial)" version="MC1.7.10-1.1.0.9-unofficial" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/NEIPlugins-MC1.7.10-1.1.0.9-unofficial.jar" 
+			file="NEIPlugins-MC1.7.10-1.1.0.9-unofficial.jar" 
+			md5="47e8ad8754eb9174cfc206824ffda48a" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294687-toniuss-mods-simply-jetpacks-fluxedfeederunit-nei" 
+			authors="mistaqur, Tonius" 
+			description="Adds mod integration into NEI" />
+
+		<mod name="Nether Ores" version="[1.7.10]2.3.0RC3-84" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/NetherOres-[1.7.10]2.3.0RC3-84.jar" 
+			file="NetherOres-[1.7.10]2.3.0RC3-84.jar" 
+			md5="b0910466b14ee6e1d43d0f8b7a437b8d" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/2016680-162164-" 
+			authors="PowerCrystals,TehKrush,AtomicStryker,skyboy026" 
+			description="Introduces mineable yet dangerous ores to the Nether" />
+
+		<mod name="NotEnoughItems" version="1.0.3.51" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/NotEnoughItems-1.7.10-1.0.3.51-universal.jar" 
+			file="NotEnoughItems-1.7.10-1.0.3.51-universal.jar" 
+			md5="57fa3c6ca5893bed98eea684ac5d1944" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/909223-" donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php" 
+			authors="ChickenBones" 
+			description="Allows you to quickly and easily look up recipes and uses for any item in Minecraft included modded items. Also allows easy spawning of items and a range of one click utilities." />
+
+		<mod name="OpenBlocks" version="1.7.10-1.3-snapshot-436" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/OpenBlocks-1.7.10-1.3-snapshot-436.jar" 
+			file="OpenBlocks-1.7.10-1.3-snapshot-436.jar" 
+			md5="460c3d629fa39ceb7e44a8801cf551c6" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1941514-" donation="http://www.patreon.com/openmods" 
+			authors="Mikee,NeverCast,boq,Lyqyd" 
+			description="OpenBlocks is a random collection of ideas - ideas the community have suggested, or ideas we thought &quot;Why hasn&apos;t anyone done that yet?&quot;. There is no theme, it&apos;s quite random. It&apos;s not even just blocks, as the name suggests!" />
+
+		<mod name="OpenEye" version="0.6" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/OpenEye-0.6-1.7.10.jar" 
+			file="OpenEye-0.6-1.7.10.jar" 
+			md5="38671a0ad16f1b8978fbd612ec75e9d3" 
+			download="server" type="mods" 
+			website="http://openeye.openmods.info/" donation="http://www.patreon.com/openmods" 
+			authors="Mikee,NeverCast,boq,Lyqyd" 
+			description="Our primary aim is to collect and share vital information to allow us to provide a set of tools to the community to make the experience easier, drama-free and more secure for both users and modders." />
+
+		<mod name="OpenMods Lib" version="1.7.10-0.6-snapshot-224" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/OpenModsLib-1.7.10-0.6-snapshot-224.jar" 
+			file="OpenModsLib-1.7.10-0.6-snapshot-224.jar" 
+			md5="7ed4a3bdecacbf9f2d41d5a109e62e51" 
+			download="server" type="mods" 
+			website="http://www.openblocks.info/" donation="http://www.patreon.com/openmods" 
+			authors="Mikeemoo" 
+			description="This is required for all of OpenBlocks mods." />
+
+		<mod name="Pam&apos;s Clay Spawn" version="1.7.2a" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Pams Clay Spawn 1.7.2a.zip" 
+			file="Pams Clay Spawn 1.7.2a.zip" 
+			md5="c31af736020be649f9f41521d059d6ce" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/402069-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=UMVYJNMULKL2W&amp;lc=US&amp;item_name=Pam%27s%20Mods&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" 
+			authors="MatrexsVigil" 
+			description="This mod adds in clay deposits underground with the frequency and density of iron deposits." />
+
+		<mod name="Pam&apos;s Harvestcraft" version="1.7.10b" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Pams HarvestCraft 1.7.10b.jar" 
+			file="Pams HarvestCraft 1.7.10b.jar" 
+			md5="b2cc48c012e187c74212d5e84cc44fad" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/402069-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=UMVYJNMULKL2W&amp;lc=US&amp;item_name=Pam%27s%20Mods&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" 
+			authors="MatrexsVigil" 
+			description="Expanded food system including tons of new crops!" />
+			
+		<mod name="Project E" version="Alpha-0.2b" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ProjectE-Alpha 0.2b.jar" 
+			file="ProjectE-Alpha 0.2b.jar" 
+			md5="499fb99c82923463bdd7986aa5bf5a3a"  
+			download="server" type="mods" 
+			website="https://github.com/MozeIntel/ProjectE" 
+			authors="MozeIntel"
+			description="Recreating EE2 for a better tomorrow!" />
+
+		<mod name="Project:Red [Base]" version="4.5.0.51" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ProjectRed-Base-1.7.10-4.5.1.51.jar" 
+			file="ProjectRed-Base-1.7.10-4.5.1.51.jar" 
+			md5="230cdb87e52bba919f7b23dbe304dad3"
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290357-forge-multipart-projectred-v4-5-0-50-9-29-2014" 
+			authors="Mr_TJP, ChickenBones"
+			description="Project:Red Base Module" />
+
+		<mod name="Project:Red [Compat]" version="4.5.0.51" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ProjectRed-Compat-1.7.10-4.5.1.51.jar" 
+			file="ProjectRed-Compat-1.7.10-4.5.1.51.jar" 
+			md5="b3efdd86820234033cb2d4b2c49f2bff" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290357-forge-multipart-projectred-v4-5-0-50-9-29-2014" 
+			authors="Mr_TJP, ChickenBones"
+			description="Project:Red Compat module. Adds compatibility with other mods." />
+
+		<mod name="Project:Red [Integration]" version="4.5.0.51" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ProjectRed-Integration-1.7.10-4.5.1.51.jar" 
+			file="ProjectRed-Integration-1.7.10-4.5.1.51.jar" 
+			md5="89f2e8949cb5483b8a0ff605953c54b8"
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290357-forge-multipart-projectred-v4-5-0-50-9-29-2014" 
+			authors="Mr_TJP, ChickenBones"
+			description="Project:Red Integration module. Adds redstone circuits and other gubbins." />
+
+		<mod name="Project:Red [Lighting]" version="4.5.0.51" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ProjectRed-Lighting-1.7.10-4.5.1.51.jar" 
+			file="ProjectRed-Lighting-1.7.10-4.5.1.51.jar" 
+			md5="0dd406aeb3f0968f36b901d0d4db430b"
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290357-forge-multipart-projectred-v4-5-0-50-9-29-2014" 
+			authors="Mr_TJP, ChickenBones"
+			description="Project:Red Lighting module. Adds a heap of lights - blocks, fixtures, lamps etc" />
+
+		<mod name="Project:Red [Mechanical]" version="4.5.0.51" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ProjectRed-Mechanical_beta-1.7.10-4.5.1.51.jar" 
+			file="ProjectRed-Mechanical_beta-1.7.10-4.5.1.51.jar" 
+			md5="45b4f1e0314498e433e7738d045f3e77" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290357-forge-multipart-projectred-v4-5-0-50-9-29-2014" 
+			authors="Mr_TJP, ChickenBones"
+			description="Project:Red Mechanical module. Adds a new type of pipes and machines to aid in automation." />
+
+		<mod name="Project:Red [World]" version="4.5.0.51" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ProjectRed-World-1.7.10-4.5.1.51.jar" 
+			file="ProjectRed-World-1.7.10-4.5.1.51.jar" 
+			md5="3d9cdd423f2b9b973154cdbdbcb352ce" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290357-forge-multipart-projectred-v4-5-0-50-9-29-2014" 
+			authors="Mr_TJP, ChickenBones"
+			description="Project:Red World module. Adds basalt and marble, as well as sweet volcanoes!" />
+
+		<mod name="Random Things" version="2.1.4" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/RandomThings-2.1.4.jar" 
+			file="RandomThings-2.1.4.jar" 
+			md5="220abc04f953b4f3fa84c8fba21cec75" 
+			download="server" type="mods" 
+			website="http://minecraft.curseforge.com/mc-mods/59816-random-things" 
+			authors="Lumien"
+			description="Random, magical things! And fast-decaying trees!" />
+
+		<mod name="Refined Relocation" version="1.0.6e" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/RefinedRelocation-1.7.10-1.0.6e.jar" 
+			file="RefinedRelocation-1.7.10-1.0.6e.jar" 
+			md5="c79a19d457fb1569169524f968ffdc91" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/2210752-" 
+			authors="Dynious" 
+			description="Players of modded Minecraft face many problems: chests are too messy, you need to fit that one pipe onto a block, but it doesn&apos;t look nice that way, there are too many pipes everywhere etc. Refined Relocation is here to make your modded Minecraft life easier! Not another new system, but something that works with existing systems and makes it better." />
+
+		<mod name="RopePlus" version="1.6.3" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/RopePlus-1.7.10-1.6.3.jar" 
+			file="RopePlus-1.7.10-1.6.3.jar" 
+			md5="e534f59c50c0aa1b8be160538a8f2e34" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1275007" 
+			authors="AtomicStryker"
+			description="Adds the fabled Grappling Hook, as well as Rope Arrows and various Elemental Arrows." />
+
+		<mod name="Statues" version="2.1.4" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/statues-1.7.10-2.1.4.jar" 
+			file="statues-1.7.10-2.1.4.jar" 
+			md5="083a94e77bd69a0ac454771becb4c7e0" 
+			download="server" type="mods" 
+			website="http://mc.shinonome.ch/doku.php?id=wiki:statues" 
+			authors="AUTOMATIC_MAIDEN, asie" 
+			description="Create statues out of various blocks" />
+
+		<mod name="Steve&apos;s Carts 2" version="0.0.b18" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/StevesCarts2.0.0.b18.jar" 
+			file="StevesCarts2.0.0.b18.jar" 
+			md5="0beb610ca0d65a1419fffabe7feb9dc2" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/680276-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z7NBL3BRBCNFC" 
+			authors="Vswe" 
+			description="Steve&apos;s Carts 2 introduces a modular system where you can build a huge amount of carts(hundreds of millions) by combining the parts you want." />
+
+		<mod name="Steve&apos;s Factory Manager" version="A92" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/StevesFactoryManagerA92.jar" 
+			file="StevesFactoryManagerA92.jar" 
+			md5="a2e00c414f9a61736c4a712b41a57c1c" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/2211439-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z7NBL3BRBCNFC" 
+			authors="vswe" 
+			description="This mod allows you to move items between different inventories (machines and storage blocks) by specifying it using commands in a flow chart like way." />
+
+		<mod name="Steve&apos;s Workshop" version="0.5.1" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/StevesWorkshop-0.5.1.jar" 
+			file="StevesWorkshop-0.5.1.jar" 
+			md5="466afe4bd2f08913d45a181e0635235a" 
+			download="server" type="mods" 
+			website="http://minecraft.curseforge.com/mc-mods/223173-steves-workshop" 
+			authors="vswe"
+			description="Adds a production table that contains multiple modular crafting tables and/or furnaces." />
+
+		<mod name="StopGap" version="2.0.5" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/StopGap-2.0.5.jar" 
+			file="StopGap-2.0.5.jar" 
+			md5="ffef100fb31ab5bef8324fd348d100a2" 
+			download="server" type="mods" 
+			website="https://mods.io/mods/1043-stopgap" 
+			authors="Othion"
+			description="When you're caught a little short and need some redstone, glowstone, or clay STAT! Adds a couple of little recipes and items to help tide you over, or maybe get going in the sky." />
+
+		<mod name="Storage Drawers" version="1.1.4" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/StorageDrawers-1.7.10-1.1.4.jar" 
+			file="StorageDrawers-1.7.10-1.1.4.jar" 
+			md5="81d7d04e76ca40d889f8c0e367a9ae54" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2198533" 
+			authors="jaquadro"
+			description="Adds storage drawers that work like JABBA barrels and look all shiny and happy!" />
+			
+		<mod name="Taelnias TC Fluids Fix" version="1.1" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/TCFluidFixes-1.1.jar" 
+			file="TCFluidFixes-1.1.jar"
+			md5="8e15c47b62282e7e230ccdc305f02a34"  
+			download="server" type="mods" 
+			website="https://bitbucket.org/taelnia/tcfluidfixes" 
+			authors="Taelnia"
+			description="Fixes some derpy fluids within Thaumcraft." />
+			
+		<mod name="Tool Utilities" version="0.0.1.1-11" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ToolUtilities-MC1.7.10-0.0.1-11.jar" 
+			file="ToolUtilities-MC1.7.10-0.0.1-11.jar" 
+			md5="53df315ccc4483fb9079b290ad64e4d7"  
+			download="server" type="mods" 
+			website="http://www.curse.com/mc-mods/minecraft/224591-toolutilities" 
+			authors="tterag1098"
+			description="Ever wanted to have the convenience of being able to place torches on right click, or mine in an area but keep a 'vanilla' feel? ToolUtilities is for you!" />
+
+		<mod name="Thaumcraft" version="4.2.0.1" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Thaumcraft-1.7.10-4.2.0.1.jar" 
+			file="Thaumcraft-1.7.10-4.2.0.1.jar" 
+			md5="61ed522f1cfcb9d92983e7feaac3299a" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292130-thaumcraft-4-2-1-1-updated-2014-10-05" 
+			authors="azanor"
+			description="Become a Thaumaturge of legend!" />
+
+		<mod name="Thaumic Tinkerer" version="2.5-1.7.10-158" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/ThaumicTinkerer-2.5-1.7.10-158.jar" 
+			file="ThaumicTinkerer-2.5-1.7.10-158.jar" 
+			md5="6dce29e04bb19e4bd76d8053fd717a4c" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1813058-" 
+			authors="Vazkii, nekosune, pixelpix" 
+			description="An addon to Thaumcraft 4, implementing new content. This mod is a spiritual successor to Elemental Tinkerer. Researches that come from this mod are prefixed by [TT]. Build 24." />
+
+		<mod name="Tubes" version="1.7.10-2.0.4" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Tubes-1.7.10-2.0.4.jar" 
+			file="Tubes-1.7.10-2.0.4.jar" 
+			md5="380112c0b55e2a95173ba94c4b04826d" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/2071224-" 
+			authors="Schmoller" 
+			description="Tubes aims to provide the best item transport and sorting solution using the awesome ForgeMultipart API These tubes work somewhat like the pneumatic tubes in RedPower, but there are many more types of tubes for all sorts of uses." />
+
+		<mod name="The Twilight Forest" version="1.7.10-2.3.2" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/twilightforest-1.7.10-2.3.2.jar" 
+			file="twilightforest-1.7.10-2.3.2.jar" 
+			md5="c4123a787738ac6a42941112b1cf69af" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/561673-" 
+			authors="Benimatic (Ben Mazur)" 
+			description="An enchanted forest dimension." />
+
+		<mod name="What Am I Looking At?" version="1.5.5" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/Waila-1.5.5_1.7.10.jar" 
+			file="Waila-1.5.5_1.7.10.jar" 
+			md5="5a423d139dfe8dae69dce681608eb958" 
+			download="server" type="mods" 
+			website="http://www.mobiusstrip.eu/" 
+			authors="ProfMobius"
+			description="Adds a handy GUI element that tells you what the block you're looking at is!" />
+			
+		<mod name="Witchery" version="0.20.6" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/witchery-1.7.10-0.20.6.jar" 
+			file="witchery-1.7.10-0.20.6.jar" 
+			md5="69816ea2031e075562671b09a658df41" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1992544-" 
+			authors="Emoniph" 
+			description="Extending Minecraft with witchcraft." />
+
+		<mod name="Yet Another Leather Smelting Mod" version="2.1.3" 
+			url="packs/VaygrimsChance/files/1.7.10/Core/yalsm-2.1.3.jar" 
+			file="yalsm-2.1.3.jar" 
+			md5="9d4485ed90374e822395d8948889e78f" 
+			download="server" type="mods" 
+			website="http://www.minecraftforum.net/topic/1990063-" 
+			authors="airbreather,skidznet" 
+			description="Adds recipes to allow smelting Rotten Flesh to Leather.  It&apos;s been done before, I just haven&apos;t seen it for 1.6.4.  Idea taken from EpicBlargh&apos;s Rotten Flesh to Leather mod.  Patchwork Flesh icon by skidznet." />
+			
+		<!-- ModTweaker Scripts -->
+		<mod name="MineTweaker Scripts" version="1" 
+			url="packs/VaygrimsChance/files/1.7.10/Scripts/scripts.zip" 
+			file="scripts.zip" 
+			md5="4855b50da2c383a696506cfa55adac11" 
+			download="server" type="extract" extractto="root"
+			website="http://www.vaygrim.com" 
+			authors="Vaygrim"
+			description="Minetweaker scripts." />
+	</mods>
+</version>
